@@ -1,0 +1,116 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    visibility: hidden;
+    color : #ab226d;
+    font-size: 36px;
+}
+
+.bar{
+    background-color: #ab226d;
+    margin-top: 6px;
+    width: 300px;
+    height: 4px;
+    position: absolute;
+    top: 68%;
+    box-shadow: 5px 5px 10px 0.5px black;
+}
+    
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 18px;
+    background-color: #ab226d;
+    /* background-color: black; */
+    position: relative;
+    animation: mover  2s 0s reverse ease both running;
+
+}
+
+.logo .maiorq{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+
+.logo .maiorq::after,
+.logo .maiorq::before{
+    content: "";
+    width: 30px;
+    height: 8px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo .maiorq::before{
+    width: 8px;
+    height: 30px;
+    left: initial;
+    right: 0;
+}
+.logo .underline{
+    width: 25px;
+    height: 7px;
+    background-color: white;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}
+
+
+/*------*/
+
+.logo1{
+    width: 100px;
+    height: 100px;
+    border-radius: 18px;
+    background-color: #ab226d;
+    position: relative;
+    animation: mover  2s 0s reverse ease both running;
+
+}
+
+.logo1 .maiorq{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+
+.logo1 .maiorq::after,
+.logo1 .maiorq::before{
+    content: "";
+    width: 30px;
+    height: 8px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo1 .maiorq::before{
+    width: 8px;
+    height: 30px;
+    left: initial;
+    right: 0;
+}
+.logo1 .underline{
+    width: 25px;
+    height: 7px;
+    background-color: white;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}
